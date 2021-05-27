@@ -1,2 +1,7 @@
 node_modules/
+public/styles.css
+public/styles.css.map
+public/bundle.js.map
+public/bundle.js
+
 
