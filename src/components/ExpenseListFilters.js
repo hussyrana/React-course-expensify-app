@@ -55,8 +55,8 @@ const mapStateToProps = (state) => {
     };
 };
 const mapDispatchToProps = (dispatch) => ({
-    setStartDate: (startDate) => dispatch(startDate(startDate)),
-    setEndDate: (endDate) => dispatch(endDate(endDate)),
+    setStartDate: (startDate) => dispatch(setStartDate(startDate)),
+    setEndDate: (endDate) => dispatch(setEndDate(endDate)),
     sortByDate: () => dispatch(sortByDate()),
     sortByAmount: () => dispatch(sortByAmount()),
     setTextFilter: (text) => dispatch(setTextFilter(text))
