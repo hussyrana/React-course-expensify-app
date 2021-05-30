@@ -7,7 +7,7 @@ exports[`should render expense summary with 1 expense 1`] = `
    
   expense
    totalling 
-  $0.00
+  $0.95
 </h1>
 `;
 
@@ -18,6 +18,6 @@ exports[`should render expense summary with multiple expenses 1`] = `
    
   expenses
    totalling 
-  $0.00
+  $1,112,222.95
 </h1>
 `;
