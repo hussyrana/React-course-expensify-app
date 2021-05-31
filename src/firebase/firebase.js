@@ -18,7 +18,17 @@ const firebaseConfig = {
 
 
 
+//   database.ref('expenses').once('value').then((snapshot)=>{
+//     const expenses = [];
+//     snapshot.forEach(element => { 
+//         expenses.push({
+//             id: element.key,
+//             ...element.val()
+//         });
 
+
+//     });
+// }) 
 
   // database.ref('expenses').on('child_changed', (snapshot)=>{
   //   console.log(snapshot.key, snapshot.val());
